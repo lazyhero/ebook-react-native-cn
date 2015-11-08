@@ -1,0 +1,384 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>RCTRootView | React-Native:快用我!</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.5.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="./feeding_javaScript_code_into_the_app.html" />
+    
+    
+    <link rel="prev" href="./a_closer_look_at_application_creat.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="4.2" data-chapter-title="RCTRootView" data-filepath="how_the_different_parts_play_together.md" data-basepath="." data-revision="Sun Nov 08 2015 15:41:29 GMT+0800 (CST)">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        书前志
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="preface/preface.html">
+            
+                
+                    <a href="./preface/preface.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        序言
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="settingup_environment.html">
+            
+                
+                    <a href="./settingup_environment.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        配置开发环境
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="helloworld.html">
+            
+                
+                    <a href="./helloworld.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        创建第一个应用
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="react-native-architecture-explained.html">
+            
+                
+                    <a href="./react-native-architecture-explained.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        React-Native剖析
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="a_closer_look_at_application_creat.html">
+            
+                
+                    <a href="./a_closer_look_at_application_creat.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        应用构建过程
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.2" data-path="how_the_different_parts_play_together.html">
+            
+                
+                    <a href="./how_the_different_parts_play_together.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        RCTRootView
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="feeding_javaScript_code_into_the_app.html">
+            
+                
+                    <a href="./feeding_javaScript_code_into_the_app.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        React packager-JSX-ES2015
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="summary.html">
+            
+            <span><b>4.4.</b> 简要总结</span>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="creating-first-real-app.html">
+            
+                
+                    <a href="./creating-first-real-app.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        做一个图书浏览APP
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="improving.html">
+            
+                
+                    <a href="./improving.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        丰富改善应用
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >React-Native:快用我!</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="&#x4E0D;&#x540C;&#x90E8;&#x5206;&#x548B;&#x5DE5;&#x4F5C;&#x7684;&#x5462;">&#x4E0D;&#x540C;&#x90E8;&#x5206;&#x548B;&#x5DE5;&#x4F5C;&#x7684;&#x5462;</h1>
+<p>React-Native&#x7684;&#x5356;&#x70B9;&#x90FD;&#x6709;&#x4EC0;&#x4E48;&#x5462;&#xFF1F;</p>
+<ol>
+<li>&#x4F7F;&#x7528;JavaScript&#x7F16;&#x5199;IOS&#x5E94;&#x7528;(&#x76EE;&#x524D;&#x5E94;&#x8BE5;&#x652F;&#x6301;&#x5B89;&#x5353;&#x4E86;,&#x4E0D;&#x4FE1;&#x4F60;&#x770B;&#x6587;&#x4EF6;&#x5939;~)</li>
+<li>&#x6240;&#x7F16;&#x5199;&#x7684;&#x5E94;&#x7528;&#x539F;&#x751F;&#x8FD0;&#x884C;&#x3001;&#x63D0;&#x4F9B;&#x539F;&#x751F;UI&#x7EC4;&#x4EF6;&#x3001;&#x539F;&#x751F;&#x7684;&#x7528;&#x6237;&#x4F53;&#x9A8C;</li>
+</ol>
+<p>ios&#x7CFB;&#x7EDF;&#x672C;&#x8EAB;&#x5E76;&#x4E0D;&#x80FD;&#x8FD0;&#x884C;JavaScript&#xFF0C;&#x6B64;&#x524D;&#x5728;ios&#x7CFB;&#x7EDF;&#x4E0A;&#x8FD0;&#x884C;&#x7684;&#x539F;&#x751F;&#x5E94;&#x7528;&#x5FC5;&#x987B;&#x7528;object-c&#x6765;&#x7F16;&#x5199;&#x6216;&#x8005;&#x4F7F;&#x7528;&#x8FD1;&#x6765;&#x82F9;&#x679C;&#x63A8;&#x51FA;&#x7684;&#x65B0;&#x8BED;&#x8A00;-Swift,&#x5B83;&#x4E5F;&#x662F;&#x8981;&#x518D;&#x8FDB;&#x884C;&#x7F16;&#x8BD1;&#x624D;&#x80FD;&#x5728;ios&#x4E0A;&#x8FD0;&#x884C;.</p>
+<p>&#x80FD;&#x5728;ios&#x8FD0;&#x884C;JavaScript&#x7684;&#x53EA;&#x6709;&#x4E24;&#x4E2A;&#x4E1C;&#x4E1C;:&#x4E00;&#x4E2A;&#x662F;Safari(&#x5C41;&#x8BDD;),&#x53E6;&#x4E00;&#x4E2A;&#x662F;UIWebView,&#x8FD9;&#x4E2A;UI&#x7EC4;&#x4EF6;&#x53EF;&#x4EE5;&#x653E;&#x7F6E;&#x5230;APP&#x4E2D;&#xFF0C;&#x8BF4;&#x767D;&#x4E86;&#x5C31;&#x662F;&#x5957;&#x4E86;&#x4E2A;&#x539F;&#x751F;APP&#x7684;&#x58F3;&#x5B50;,&#x91CC;&#x9762;&#x662F;&#x4E00;&#x4E2A;web&#x8FD0;&#x884C;&#x73AF;&#x5883;,&#x8FD9;&#x79CD;&#x7C7B;&#x578B;&#x7684;APP&#x4E5F;&#x88AB;&#x53EB;&#x505A;&#x6DF7;&#x5408;&#x5E94;&#x7528;,hybrid,&#x719F;&#x6089;&#x5427;,&#x8FD9;&#x79CD;&#x5E94;&#x7528;&#x786E;&#x5B9E;&#x662F;&#x539F;&#x751F;&#x7684;,&#x4F46;&#x5176;&#x4E2D;&#x539F;&#x751F;&#x4EE3;&#x7801;&#x4E5F;&#x4EC5;&#x4EC5;&#x662F;&#x4E3A;&#x4E86;&#x542F;&#x52A8;UIWebView&#x8FD9;&#x4E2A;&#x542B;&#x6709;&#x6D4F;&#x89C8;&#x5668;&#x89E3;&#x6790;&#x5F15;&#x64CE;&#x7684;view&#x5BB9;&#x5668;&#x800C;&#x5DF2;&#xFF0C;&#x5728;&#x8FD9;&#x4E2A;&#x7EC4;&#x4EF6;&#x91CC;&#x53EF;&#x4EE5;&#x6B63;&#x5E38;&#x8FD0;&#x884C;&#x542B;&#x6709;&#x6837;&#x5F0F;&#x3001;js&#x811A;&#x672C;&#x7684;&#x7F51;&#x9875;.</p>
+<p>&#x8FD9;&#x79CD;&#x4E1C;&#x4E1C;&#x7684;&#x5B58;&#x5728;&#x5E26;&#x6765;&#x4E00;&#x4E2A;&#x597D;&#x5904;,&#x5C31;&#x662F;&#x53EF;&#x4EE5;&#x5229;&#x7528;&#x6784;&#x5EFA;web&#x7684;&#x7ECF;&#x9A8C;&#x6765;&#x7F16;&#x5199;&#x975E;&#x5E38;&#x63A5;&#x8FD1;&#x539F;&#x751F;&#x7684;&#x5E94;&#x7528;.&#x4E0D;&#x8FC7;&#x5C3D;&#x7BA1;&#x5982;&#x6B64;,&#x867D;&#x7136;UIWebView&#x672C;&#x8EAB;&#x662F;&#x539F;&#x751F;&#x7EC4;&#x4EF6;&#x4F46;&#x5B83;&#x6240;&#x627F;&#x8F7D;&#x7684;&#x5185;&#x5BB9;&#x5374;&#x4E0D;&#x662F;&#x2014;&#x2014;&#x4EC5;&#x4EC5;&#x662F;&#x4E2A;&#x7F51;&#x9875;&#x800C;&#x5DF2;.&#x8FD9;&#x4E5F;&#x5C31;&#x662F;&#x4E3A;&#x4EC0;&#x4E48;&#x6DF7;&#x5408;&#x5E94;&#x7528;(hybrid)&#x603B;&#x662F;&#x8BF4;&#x5B83;&#x5AB2;&#x7F8E;&#x539F;&#x751F;,&#x7136;&#x800C;&#x300C;&#x5AB2;&#x7F8E;&#x300D;&#x53EA;&#x662F;&#x76F8;&#x4F3C;&#x800C;&#x5DF2;,&#x6BD5;&#x7ADF;&#x6BD4;&#x4E0D;&#x4E0A;&#x5B8C;&#x5168;&#x7528;oc&#x7F16;&#x5199;&#x7684;&#x771F;&#x6B63;&#x539F;&#x751F;.</p>
+<p>&#x8BDD;&#x8BF4;&#x56DE;&#x6765;,&#x5728;HelloWorld&#x8FD9;&#x4E2A;&#x4F8B;&#x5B50;&#x4E2D;,&#x6211;&#x4EEC;&#x662F;&#x5199;&#x4E86;JavaScript&#x4EE3;&#x7801;,&#x4F46;&#x662F;&#x5E76;&#x6CA1;&#x6709;&#x521B;&#x5EFA;&#x7F51;&#x9875;&#x6587;&#x4EF6;,&#x4E5F;&#x6CA1;&#x6709;&#x4F7F;&#x7528;UIWebView&#x6765;&#x8FD0;&#x884C;&#x6211;&#x4EEC;&#x7684;&#x4EE3;&#x7801;.&#x76F8;&#x53CD;&#x6211;&#x4EEC;&#x7684;&#x4EE3;&#x7801;&#x8FD0;&#x884C;&#x5728;JavaScript&#x5185;&#x6838;&#x4E0A;,&#x8FD9;&#x4E2A;&#x5185;&#x6838;&#x88AB;&#x690D;&#x5165;&#x8FDB;&#x5E94;&#x7528;&#x4E2D;.&#x542C;&#x8D77;&#x6765;&#x662F;&#x4E0D;&#x662F;&#x6709;&#x70B9;&#x8FF7;&#x7CCA;?&#x6765;&#x6765;&#x6765;&#x6211;&#x4EEC;&#x7EE7;&#x7EED;&#x770B;&#x4EE3;&#x7801;.</p>
+<p>&#x7528;xcode&#x6253;&#x5F00;HelloWorld/AppDelegate.m&#x6587;&#x4EF6;,&#x4EE3;&#x7801;&#x6E05;&#x5355;&#x5982;&#x4E0B;:</p>
+<pre><code class="lang-javascript">/**
+ * Copyright (c) 2015-present, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ */
+
+#import &quot;AppDelegate.h&quot;
+
+#import &quot;RCTRootView.h&quot;
+
+@implementation AppDelegate
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+  NSURL *jsCodeLocation;
+
+  /**
+   * Loading JavaScript code - uncomment the one you want.
+   *
+   * OPTION 1
+   * Load from development server. Start the server from the repository root:
+   *
+   * $ npm start
+   *
+   * To run on device, change `localhost` to the IP address of your computer
+   * (you can get this by typing `ifconfig` into the terminal and selecting the
+   * `inet` value under `en0:`) and make sure your computer and iOS device are
+   * on the same Wi-Fi network.
+   */
+
+  jsCodeLocation = [NSURL URLWithString:@&quot;http://localhost:8081/index.ios.bundle?platform=ios&amp;dev=true&quot;];
+
+  /**
+   * OPTION 2
+   * Load from pre-bundled file on disk. To re-generate the static bundle
+   * from the root of your project directory, run
+   *
+   * $ react-native bundle --minify
+   *
+   * see http://facebook.github.io/react-native/docs/runningondevice.html
+   */
+
+//   jsCodeLocation = [[NSBundle mainBundle] URLForResource:@&quot;main&quot; withExtension:@&quot;jsbundle&quot;];
+
+  RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+                                                      moduleName:@&quot;HelloWorld&quot;
+                                               initialProperties:nil
+                                                   launchOptions:launchOptions];
+
+  self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+  UIViewController *rootViewController = [[UIViewController alloc] init];
+  rootViewController.view = rootView;
+  self.window.rootViewController = rootViewController;
+  [self.window makeKeyAndVisible];
+  return YES;
+}
+
+@end
+</code></pre>
+<p>AppDelegate.m&#x6587;&#x4EF6;&#x662F;app&#x7684;&#x5165;&#x53E3;&#x6587;&#x4EF6;,&#x5C31;&#x662F;&#x5728;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x91CC;&#x5230;&#x539F;&#x751F;object-c&#x4EE3;&#x7801;&#x548C;React-Native-JavaScript&#x5EFA;&#x7ACB;&#x4E86;&#x8054;&#x7CFB;.&#x5728;&#x7B2C;12&#x884C;&#x5934;&#x6587;&#x4EF6;&#x5F15;&#x5165;&#x4E86;<strong>RCTRootView</strong>&#x7EC4;&#x4EF6;.</p>
+<p>RCTRootView&#x662F;React-Native&#x6846;&#x67B6;&#x63D0;&#x4F9B;&#x7684;object-c&#x7F16;&#x5199;&#x7684;&#x7C7B;,&#x6211;&#x4EEC;&#x7684;js&#x4EE3;&#x7801;&#x5C31;&#x662F;&#x88AB;&#x5B83;&#x83B7;&#x53D6;&#x5230;&#x5E76;&#x6267;&#x884C;&#x7684;.&#x9664;&#x6B64;&#x4E4B;&#x5916;,&#x5B83;&#x8FD8;&#x80FD;&#x8BA9;&#x6211;&#x4EEC;&#x7528;js&#x4EE3;&#x7801;&#x6765;&#x8C03;&#x7528;&#x539F;&#x751F;&#x7684;iosUI&#x7EC4;&#x4EF6;.</p>
+<p>&#x8FD9;&#x610F;&#x5473;&#x7740;&#x63A7;&#x5236;&#x5E94;&#x7528;&#x7684;&#x4EE3;&#x7801;&#x5B9E;&#x9645;&#x4E0A;&#x90FD;&#x662F;JavaScript&#x7F16;&#x5199;&#x7684;&#xFF0C;&#x4E0D;&#x4F1A;&#x88AB;&#x8F6C;&#x6362;&#x4E3A;object-c&#x3001;swift&#x6216;&#x8005;&#x5176;&#x4ED6;&#x4EC0;&#x4E48;.&#x5448;&#x73B0;&#x5230;&#x6211;&#x4EEC;&#x8BBE;&#x5907;&#x4E0A;&#x7684;&#x754C;&#x9762;&#x4E5F;&#x5168;&#x90E8;&#x7531;UIKit&#x7684;&#x539F;&#x751F;UI&#x5E93;&#x63D0;&#x4F9B;,&#x5C31;&#x50CF;&#x4F60;&#x4F7F;&#x7528;&#x4F20;&#x7EDF;object-c&#x548C;swift&#x4E00;&#x6837;.</p>
+<p>&#x8FD9;&#x4E5F;&#x89E3;&#x91CA;&#x4E86;&#x4E3A;&#x4EC0;&#x4E48;&#x6211;&#x4EEC;&#x80FD;&#x8F7B;&#x6613;&#x7684;&#x91CD;&#x8F7D;&#x6211;&#x4EEC;&#x7684;&#x7A0B;&#x5E8F;.&#x5982;&#x679C;&#x6211;&#x4EEC;&#x4EC5;&#x4EC5;&#x662F;&#x66F4;&#x6539;&#x4E86;javascript&#x4EE3;&#x7801;,&#x800C;&#x6CA1;&#x6709;&#x4FEE;&#x6539;object-c&#x4EE3;&#x7801;&#xFF0C;&#x90A3;&#x4E5F;&#x5C31;&#x6CA1;&#x6709;&#x5FC5;&#x8981;&#x91CD;&#x65B0;&#x7F16;&#x8BD1;.RCTRootView&#x80FD;&#x591F;&#x76D1;&#x542C;command+r&#x64CD;&#x4F5C;&#x3001;&#x5BF9;UI&#x7684;&#x66F4;&#x6539;&#x505A;&#x51FA;&#x53CD;&#x5E94;&#x3001;&#x83B7;&#x53D6;&#x6700;&#x8FD1;&#x4FEE;&#x6539;&#x7684;JavaScript&#x4EE3;&#x7801;(&#x5982;&#x4F55;&#x5B8C;&#x6210;&#x8FD9;&#x4E2A;&#x52A8;&#x4F5C;&#x6211;&#x4EEC;&#x540E;&#x9762;&#x8BF4;),&#x6700;&#x540E;&#x6267;&#x884C;&#x65B0;&#x7684;&#x4EE3;&#x7801;.&#x6211;&#x4EEC;&#x7684;&#x5E94;&#x7528;&#x4E5F;&#x5C31;&#x5F88;&#x8F7B;&#x6613;&#x7684;&#x4FDD;&#x6301;&#x5B9E;&#x65F6;&#x8FD0;&#x884C;.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./a_closer_look_at_application_creat.html" class="navigation navigation-prev " aria-label="Previous page: 应用构建过程"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./feeding_javaScript_code_into_the_app.html" class="navigation navigation-next " aria-label="Next page: React packager-JSX-ES2015"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
